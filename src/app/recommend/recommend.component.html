@@ -1,0 +1,22 @@
+<div class="btn-group dropup mt-3">
+  <button class="btn btn-success dropdown-toggle ml-4" type="button" id="dropdownMenu" data-toggle="dropdown">
+    Top Movies
+  </button>
+  <div class="dropdown-menu" style="background-color: grey; width:240px; margin-left:110px; margin-bottom:-20px">
+    <div class="row">
+      <div class="col-md-6" style="margin-left: 10px">
+        <button class="dropdown-item" *ngFor="let genre of genresfirst">{{genre}}</button>
+      </div>
+      <div class="col-md-6" style="margin-left:-20px">
+        <button class="dropdown-item" *ngFor="let genre of genressecond">{{genre}}</button>
+      </div>
+    </div> 
+  </div>
+</div>
+<div id="topchart"></div>
+
+
+
+  
+
+

@@ -1,0 +1,14 @@
+.dropdown-menu button{
+    line-height: 10px;
+    font-size: 12px;
+    background-color: blueviolet;
+    color: white;
+    border: white 1px solid;
+    margin-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#topchart{
+    overflow-x: auto;
+    white-space: nowrap;
+}
